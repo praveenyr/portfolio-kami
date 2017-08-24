@@ -6,15 +6,15 @@ categories: alexa
 ---
 
 ## CrossFit
-The premise for my third Alexa skill is based on something I'm super passionate about, and thats [CrossFit](https://en.wikipedia.org/wiki/CrossFit "CrossFit wiki"). I decided to take up CrossFit about an year ago and it has changed my life. Before my CrossFit days, my workout routine was moderate - I used to jog maybe once a week, with a couple of days of yoga and a hike or two thrown in between. The mundane and routine workouts were not proving to be much effective and I was losing interest pretty fast. And thats when I decided to try something new. When I took my CrossFit trial class which lasted about 20 min, I was out of breadth by the end of it and the coach actually had to sit me down. Oddly, that was the moment I officially made the jump to _CrossFit_.
+The premise for my third Alexa skill is based on something I'm super passionate about, and thats [CrossFit](https://en.wikipedia.org/wiki/CrossFit "CrossFit wiki"). I decided to take up CrossFit about an year ago and it has changed my life. Before my CrossFit days, my workout routine was moderate - I used to jog maybe once a week, with a couple of days of yoga and a hike or two thrown in between. The mundane and routine workouts were not proving to be much effective and I was losing interest pretty fast. And thats when I decided to try something new. When I took my twenty minute CrossFit trial, I was out of breathe by the end. The coach actually had to sit me down!. Oddly, that was the moment I officially made the jump to _CrossFit_.
 
 _CrossFit_ has brought an amazing transformation in my mind, body and soul. At the end of class, the feeling of having given it all in the "CrossFit battlefield", is unparalleled. If I had to list 3 reasons as to why I adore CrossFit -
 
-- **Intensity** :  The high intensity interval training is absolutely magic. Or most times, a freaking nightmare. But it gets you the results you've craved for.
+- **Intensity** : The high intensity interval training is absolutely magic. Or most times, a freaking nightmare. But it gets you the results you've craved for.
 
-- **Community**:  I would like to think Crossfitters actually belong to a _cult_. Well, they do not but I would like to _think so_. Doing something intense and physically exhausting binds _the cult_ together.
+- **Community**: I would like to think Crossfitters actually belong to a _cult_. Well, they do not but I would like to _think so_. Doing something intense and physically exhausting binds _the cult_ together.
 
-- **Work out of the day**:  WOD(as in pod) as we like to say. A different WOD everyday keeps it interesting and engaging. You could be doing weightlifting one day, indoor rowing another day, and handstand push ups or strict pull ups the third day.
+- **Work out of the day**: WOD(as in pod) as we like to say. A different WOD everyday keeps it interesting and engaging. You could be doing weightlifting one day, indoor rowing another day, and handstand push ups or strict pull ups the third day.
 
 
 ## Designing a skill to get the WOD
@@ -27,10 +27,11 @@ My skill is going to be retrieving the work out of the day(WOD) from my local Cr
 
 - **Visual Representation of the Menu/Model:**  The following diagram depicts a flow of information from the user to the Alexa enabled device and back. In my case, the two cases which need to be handled by alexa include:
 
-  1. Respond with WOD details if a CrossFit WOD exists for the specific date
+  1. Respond with WOD details if a CrossFit WOD exists for the specific date.
   2. Respond with 'No WOD available today' if no workout has been scheduled for the date.
 
   ![alexa wod](/img/alexa-wod.jpg "Alexa Voice Model")
+ 
  
 
   
